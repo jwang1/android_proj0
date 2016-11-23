@@ -18,33 +18,34 @@ public class MainActivity extends AppCompatActivity {
 
     Button buildItBiggerBtn = (Button) findViewById(R.id.build_it_bigger);
     buildItBiggerBtn.setOnClickListener((view) -> {
-      toast.setText("Hello Momy, this " + ((Button) view).getText() + " button will launch Build It Bigger project.");
+      toast.setText("Launching " + ((Button) view).getText());
       toast.show();
     });
 
   }
 
   public void clickPopularMovies(View view) {
-    toast.setText("Hello Annie, this " + ((Button)view).getText()  + " button will launch Popular Movies Project.");
+    toast.setText("Launching " + ((Button) view).getText());
     toast.show();
   }
 
   public void clickStockHawk(View view) {
-    toast.setText("Hello Raymond, this " + ((Button)view).getText()  + " button will launch Stock Hawk Project.");
+    toast.setText("Launching " + ((Button) view).getText());
     toast.show();
   }
 
   public void clickMakeAppMaterial(View view) {
-    toast.setText("Hello Daddy, this " + ((Button) view).getText() + " button will launch Make Your App Material");
+    toast.setText("Launching " + ((Button) view).getText());
     toast.show();
   }
 
   public void clickGoUbiquitous(View view) {
-    toast.setText("Hello Kitty, this " + ((Button) view).getText() + " button will launch Go Ubiquitous App Material");
+    toast.setText("Launching " + ((Button) view).getText());
     toast.show();
   }
 
   public void clickCapstone(View view) {
+    toast.setText("Launching " + ((Button) view).getText());
     toast.show();
   }
 
