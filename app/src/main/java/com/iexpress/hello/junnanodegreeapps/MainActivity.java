@@ -25,12 +25,26 @@ public class MainActivity extends AppCompatActivity {
   }
 
   public void clickPopularMovies(View view) {
-    toast.setText("Hello Annie, this " + ((Button)view).getText()  + " button will lauch Popular Movies Project.");
+    toast.setText("Hello Annie, this " + ((Button)view).getText()  + " button will launch Popular Movies Project.");
     toast.show();
   }
 
   public void clickStockHawk(View view) {
-    toast.setText("Hello Raymond, this " + ((Button)view).getText()  + " button will lauch Stock Hawk Project.");
+    toast.setText("Hello Raymond, this " + ((Button)view).getText()  + " button will launch Stock Hawk Project.");
+    toast.show();
+  }
+
+  public void clickMakeAppMaterial(View view) {
+    toast.setText("Hello Daddy, this " + ((Button) view).getText() + " button will launch Make Your App Material");
+    toast.show();
+  }
+
+  public void clickGoUbiquitous(View view) {
+    toast.setText("Hello Kitty, this " + ((Button) view).getText() + " button will launch Go Ubiquitous App Material");
+    toast.show();
+  }
+
+  public void clickCapstone(View view) {
     toast.show();
   }
 
