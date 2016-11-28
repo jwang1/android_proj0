@@ -8,10 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="app_textview_style" parent="Theme.AppCompat.Light">
+    <style name="app_textview_style" parent="Widget.AppCompat.Light.AutoCompleteTextView">
         <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentTop">true</item>
+        <!-- item name="android:layout_alignParentTop">true</item -->
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginTop">@dimen/layout_top_margin</item>
         <item name="android:textSize">16sp</item>
@@ -19,7 +19,7 @@
         <item name="android:typeface">serif</item>
     </style>
 
-    <style name="app_button_style">
+    <style name="app_button_style" parent="Widget.AppCompat.Button">
         <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">wrap_content</item>
         <!-- item name="android:layout_weight">0.85</item-->
